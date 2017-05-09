@@ -35,6 +35,13 @@
                     
                     };
          };
+         
+         scope.thumbStyle = function() {
+             return{
+                   
+                  left: percentString()
+             };
+         };
 
          scope.onClickSeekBar = function(event) {
              var percent = calculatePercent(seekBar, event);
